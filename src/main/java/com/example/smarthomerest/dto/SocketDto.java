@@ -1,2 +1,17 @@
-package com.example.smarthomerest.dto;public class SocketDto {
+package com.example.smarthomerest.dto;
+
+import lombok.Data;
+
+import java.time.LocalDateTime;
+
+@Data
+public class SocketDto {
+
+    private int id;
+
+    private String name;
+
+    private String value;
+
+    private LocalDateTime lastEdit;
 }

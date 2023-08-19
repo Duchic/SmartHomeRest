@@ -1,2 +1,4 @@
-package com.example.smarthomerest.repositories;public interface TempRepository {
+package com.example.smarthomerest.repositories;
+
+public interface TempRepository {
 }

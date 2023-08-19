@@ -1,2 +1,4 @@
-package com.example.smarthomerest.services;public class TempService {
+package com.example.smarthomerest.services;
+
+public class TempService {
 }
