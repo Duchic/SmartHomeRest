@@ -12,9 +12,9 @@ import java.time.LocalDateTime;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class SenzorEntity {
+public class SensorEntity {
 
-    public SenzorEntity(String name, String value, LocalDateTime lastEdit){
+    public SensorEntity(String name, String value, LocalDateTime lastEdit){
         this.name = name;
         this.value = value;
         this.lastEdit = lastEdit;
