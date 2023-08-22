@@ -22,12 +22,12 @@ public class SensorController {
         return sensorService.getAllRecord();
     }
 
-    @GetMapping("/senzor/get/{id}") //dodelat servisu
+    @GetMapping("/senzor/get/{id}")
     public SensorDto getSenzor(@PathVariable int id) {
         return sensorService.getSenzorById(id);
     }
 
-    @PostMapping("/senzor/update/{id}") //dodelat servisu
+    @PostMapping("/senzor/update/{id}")
     public SensorDto updateSenzor(@PathVariable int id, @RequestBody SensorDto sensorDto) {
         return sensorService.updateSenzor(sensorDto);
     }
