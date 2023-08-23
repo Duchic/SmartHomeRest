@@ -3,11 +3,13 @@ package com.example.smarthomerest.services;
 import com.example.smarthomerest.dto.TempDto;
 import com.example.smarthomerest.entities.TempEntity;
 import com.example.smarthomerest.repositories.TempRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class TempService {
 
     private final TempRepository tempRepository;

@@ -4,11 +4,13 @@ import com.example.smarthomerest.dto.SensorDto;
 import com.example.smarthomerest.dto.SocketDto;
 import com.example.smarthomerest.entities.SocketEntity;
 import com.example.smarthomerest.repositories.SocketRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class SocketService {
 
     private final SocketRepository socketRepository;
