@@ -13,5 +13,9 @@ public class SensorDto {
 
     private String value;
 
+    private String motion;
+
+    private int lux;
+
     private LocalDateTime lastEdit;
 }

@@ -14,9 +14,11 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 public class SensorEntity {
 
-    public SensorEntity(String name, String value, LocalDateTime lastEdit){
+    public SensorEntity(String name, String value, String motion, int lux, LocalDateTime lastEdit){
         this.name = name;
         this.value = value;
+        this.motion = motion;
+        this.lux = lux;
         this.lastEdit = lastEdit;
     }
 
@@ -29,6 +31,10 @@ public class SensorEntity {
 
     @Column(nullable = false)
     private String value;
+
+    private String motion;
+
+    private int lux;
 
     private LocalDateTime lastEdit;
 }

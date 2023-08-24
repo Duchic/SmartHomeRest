@@ -31,6 +31,8 @@ public class SensorService {
             sensorDto.setId(byId.get().getId());
             sensorDto.setName(byId.get().getName());
             sensorDto.setValue(byId.get().getValue());
+            sensorDto.setMotion(byId.get().getMotion());
+            sensorDto.setLux(byId.get().getLux());
             sensorDto.setLastEdit(byId.get().getLastEdit());
             return sensorDto;
         }
@@ -42,6 +44,8 @@ public class SensorService {
         sensorEntity.setId(sensorDto.getId());
         sensorEntity.setName(sensorDto.getName());
         sensorEntity.setValue(sensorDto.getValue());
+        sensorEntity.setMotion(sensorDto.getMotion());
+        sensorEntity.setLux(sensorDto.getLux());
         sensorEntity.setLastEdit(sensorDto.getLastEdit());
         sensorRepository.save(sensorEntity);
         return sensorDto;
