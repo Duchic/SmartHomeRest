@@ -9,6 +9,10 @@ import java.util.List;
 
 @RestController
 public class SensorController {
+    //id 0 = motion
+    //id 1 = door
+    //id 2 = water kitchen
+    //id 3 = water bathroom
 
     private final SensorService sensorService;
 

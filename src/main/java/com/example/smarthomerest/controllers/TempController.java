@@ -10,6 +10,11 @@ import java.util.List;
 
 @RestController
 public class TempController {
+    //id 0 = temp livingroom
+    //id 1 = temp bedroom
+    //id 2 = temp bathroom
+    //id 3 = temp hall - door sensor
+    //id 4 = temp outdoor
 
     private final TempService tempService;
 
