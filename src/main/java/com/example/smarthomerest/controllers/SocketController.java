@@ -13,16 +13,16 @@ import java.util.List;
 public class SocketController {
     //id 0 = lamp
     //id 1 = led strip
-    //id 2 = heat bathroom
-    //id 3 = big charger
-    //id 4 = led table
-    //id 5 = bed charger
-    //id 6 = guitar
-    //id 7 = shoe dryer
-    //id 8 = 3 table
-    //id 9 = 4 table - warmer
-    //id 10 = USB
-    //id 11 = PC
+    //id 2 = led table
+    //id 3 = charger
+    //id 4 = 3 table
+    //id 5 = 4 table
+    //id 6 = USB
+    //id 7 = PC
+    //id 8 = guitar
+    //id 9 = shoe dryer
+    //id 10 = heat bathroom
+    //id 11 = bed charger
     private final SocketService socketService;
 
     @Autowired
